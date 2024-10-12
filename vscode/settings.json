@@ -1,0 +1,256 @@
+{
+    //! editor config
+    //? editor font
+    "editor.fontFamily": "'ComicShannsMono Nerd Font', 'LXGW WenKai Mono'",
+    "editor.fontWeight": "normal",
+	"editor.fontSize": 18,
+    //? editor others
+    "editor.lineHeight": 1.2,
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": "on",
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.stickyTabStops": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "off",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderControlCharacters": true,
+    "editor.tabSize": 4,
+    "editor.stickyScroll.enabled": true,
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.lineNumbers": "relative",
+    "editor.parameterHints.enabled": true,
+    //? hints and suggestions
+    "editor.inlayHints.enabled": "on",
+    "editor.inlineSuggest.enabled": true,
+    //? cursor
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorBlinking": "expand",
+    //? error lens font
+	"editor.codeLensFontFamily": "'ComicShannsMono Nerd Font Mono'",
+	"editor.codeLensFontSize": 16,
+
+
+    //! terminal config
+    "terminal.integrated.fontFamily": "'ComicShannsMono Nerd Font Mono', 'DroidSansMono Nerd Font', 'LXGW WenKai Mono'",
+    "terminal.integrated.fontSize": 18,
+	"terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.lineHeight": 0.8,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.inheritEnv": false,
+
+
+    //! workbench config
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.wrapTabs": true, 
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.languageDetectionHints": {
+        "untitledEditors": false,
+        "notebookEditors": false
+    },
+
+
+    //! leetcode
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "/home/fetch150zy/Proj/leetcode/",
+    "leetcode.hideSolved": false,
+    "leetcode.hint.commentDescription": true,
+
+
+    //! language
+    //? for rust
+    "rust-analyzer.inlayHints.renderColons": true,
+    "rust-analyzer.inlayHints.typeHints.enable": true,
+    "rust-analyzer.inlayHints.parameterHints.enable": true,
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+    "rust-analyzer.inlayHints.expressionAdjustmentHints.enable": "always",
+    "rust-analyzer.inlayHints.expressionAdjustmentHints.hideOutsideUnsafe": true,
+    "rust-analyzer.inlayHints.genericParameterHints.type.enable": true,
+    "rust-analyzer.inlayHints.genericParameterHints.lifetime.enable": true,
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+    "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+    "rust-analyzer.inlayHints.reborrowHints.enable": "always",
+    "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": true,
+    "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": true,
+
+    //? for go
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inferGopath": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.parameterNames": true,
+    "go.installDependenciesWhenBuilding": true,
+    "go.inlayHints.rangeVariableTypes": true,
+
+    //? for python
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.missingPackage.severity": "Error",
+
+    //? for c&cpp
+
+    //? for TS&JS
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+
+
+    //! for better comments
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+
+    
+    //! others
+    "files.autoGuessEncoding": true,
+    "window.zoomLevel": 1,
+    "files.autoSave": "onFocusChange",
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "zenMode.hideLineNumbers": false,
+    "editor.largeFileOptimizations": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "search.followSymlinks": true,
+    "window.menuBarVisibility": "visible",
+    "window.dialogStyle": "custom",
+    "workbench.settings.editor": "json",
+    // "bashIde.explainshellEndpoint": "http://localhost:5000",
+    "git-graph.dialog.fetchIntoLocalBranch.forceFetch": true,
+    "git-graph.dialog.rebase.launchInteractiveRebase": true,
+
+
+    //! for debug
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.toolBarLocation": "docked",
+    "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+    "debug.onTaskErrors": "showErrors",
+    "debug.inlineValues": "auto",
+
+
+    //! project manager
+    "projectManager.git.baseFolders": ["/home/fetch150zy/Proj"],
+    "projectManager.sortList": "Recent",
+    "projectManager.git.maxDepthRecursion": 2,
+
+    
+    //! for minimap
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": true,
+
+
+    //! for copilot
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.chat.experimental.inlineChatHint.enabled": true,
+    
+
+    //! for vim 
+    // "vim.leader": "<space>",
+    // "vim.normalModeKeyBindingsNonRecursive": [
+    //     // show hover
+    //     {
+    //         "before": ["<leader>", "h"],
+    //         "commands": ["editor.action.showHover"]
+    //     },
+    //     // show definition
+    //     {
+    //         "before": ["<leader>", "j"],
+    //         "commands": ["editor.action.goToDeclaration"]
+    //     },
+    //     // show references
+    //     {
+    //         "before": ["<leader>", "r"],
+    //         "commands": ["editor.action.referenceSearch.trigger"]
+    //     },
+    //     // show problems
+    //     {
+    //         "before": ["<leader>", "["],
+    //         "commands": ["editor.action.marker.prevInFiles"]
+    //     },
+    //     {
+    //         "before": ["<leader>", "]"],
+    //         "commands": ["editor.action.marker.nextInFiles"]
+    //     }
+    // ],
+    
+
+    //! for file association
+    "files.associations": {
+        "*.inc": "cpp"
+    },
+
+
+    //! for theme and icon
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#42a5f5",
+    "material-icon-theme.saturation": 0.9,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
+}
