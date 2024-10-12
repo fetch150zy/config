@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Border",
+  "theme": "moonstone",
+  "interfaceFontFamily": "LXGW WenKai Mono",
+  "textFontFamily": "LXGW WenKai Mono",
+  "monospaceFontFamily": "ComicShannsMono Nerd Font Mono",
+  "baseFontSize": 18,
+  "showViewHeader": true
+}

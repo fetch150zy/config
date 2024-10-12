@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "a79392d63cdef125",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b7c4f4473ab8f54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b571b92180d14b1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Tools/常用网络相关命令行工具.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c47ca873c83a4a2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f8e717b99ae7c78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e189e6159fde71f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "418d641cdd5f10f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f7578707e429e79",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "130ccfd43eaed459",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce8143eb87f06569",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81f976f2e2fb6643",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/Tools/常用网络相关命令行工具.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "60052e74247a5534",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/Tools/常用网络相关命令行工具.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd9c79ad0c852b34",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Tools/常用网络相关命令行工具.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "b571b92180d14b1f",
+  "lastOpenFiles": [
+    "欢迎.md",
+    "Template/blog.md",
+    "Linux/Tools/命令行的艺术.md",
+    "Linux/Tools/常用网络相关命令行工具.md",
+    "PL/Java/关于Java你可能不知道的10件事.md",
+    "杂记/提问的艺术.md",
+    "杂记",
+    "().md",
+    "PL/Shell",
+    "PL/Python",
+    "PL/C",
+    "PL/Cpp",
+    "PL/Rust",
+    "PL/Golang",
+    "PL/Java",
+    "WebPages/ping6 命令，Linux ping6 命令详解：测试主机之间网络的连通性(ipv6) - Linux 命令搜索引擎.md",
+    "Pdf/Summit_bootflow.pdf",
+    "Template/pre.md",
+    "Pdf",
+    "创建链接.md",
+    "Linux/Tools/Net/未命名.md"
+  ]
+}
