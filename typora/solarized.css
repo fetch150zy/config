@@ -1,0 +1,486 @@
+:root {
+    --side-bar-bg-color: #eee8d5;    
+    --text-color: #839496;
+    --item-hover-bg-color: #eee8d5;
+    --window-border: 1px solid #93a1a1;
+    --active-file-bg-color: #fdf6e3;
+    --active-file-text-color: #93a1a1;
+    --item-hover-text-color: #93a1a1;
+    --default-font: "Monaspace Radon SemiWide", "LXGW WenKai Mono";
+}
+
+/* @include-when-export url(http://fonts.googleapis.com/css?family=Roboto+Mono:400italic,700italic,700,400&subset=latin,latin-ext); */
+
+@font-face {
+    font-family: 'LXGW WenKai Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('LXGW WenKai Mono Regular'), url('./solarized/LXGWWenKaiMono-Regular.ttf') format('ttf');
+    unicode-range: U+4E00-U+9FFF, U+3400-U+4DBF, U+20000-U+2A6DF, U+2A700-U+2B73F, U+2B740-U+2B81F, U+2B820-U+2CEAF, U+F900-U+FAFF, U+2F800-U+2FA1F;
+}
+
+@font-face {
+    font-family: 'Monaspace Radon SemiWide';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monaspace Radon SemiWide Regular'), url('./solarized/MonaspaceRadon-SemiWideRegular.woff') format('woff');
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "LXGW WenKai Mono";
+    color: #586e75;
+    line-height: 1.6;
+    background-color: #fdf6e3;
+}
+
+#write {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px 30px 40px 30px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#write > ul:first-child,
+#write > ol:first-child {
+    margin-top: 30px;
+}
+
+body > *:first-child {
+    margin-top: 0 !important;
+}
+
+body > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: #268bd2;
+}
+a:hover {
+    color: #cb4b16;
+}
+
+.md-toc-inner {
+    color: #93a1a1!important;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    line-height: 1.4;
+    cursor: text;
+}
+
+/* 一级二级标题居中 */
+h1, 
+h2{
+	text-align: center;
+}
+
+/* 一级标题添加花体框 */
+h1::before,
+h1::after {
+	position: static;
+	content: '';
+	display: block;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto 80%;
+	width: 100%;
+	z-index: 1;
+	margin: 0 0;
+	padding: 20px 30px;
+	border: 0;
+}
+
+h1::before {
+	background-image: var(--header-background-img,url('./solarized/png/h.png'));
+}
+
+h1::after {
+	background-image: var(--header-background-img-bottom,url('./solarized/png/h-bottom.png'));
+}
+
+.md-heading::after {
+	border-bottom: 1px solid var(--main-color);
+}
+
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee8d5;
+    font-family: "Monaspace Radon SemiWide";
+}
+
+h2 {
+    padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee8d5;
+    font-family: "Monaspace Radon SemiWide";
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+    font-family: "Monaspace Radon SemiWide";
+}
+
+h4 {
+    font-size: 1.25em;
+    font-family: "Monaspace Radon SemiWide";
+}
+
+h5 {
+    font-size: 1em;
+    font-family: "Monaspace Radon SemiWide";
+}
+
+h6 {
+    font-size: 1em;
+    color: #777;
+    font-family: "Monaspace Radon SemiWide";
+}
+
+p,
+ul,
+ol,
+dl,
+table {
+    margin: 0.8em 0;
+}
+
+blockquote {
+    margin: 8px 10px;
+}
+
+li > ol,
+li > ul {
+    margin: 0 0;
+}
+
+hr {
+    height: 1px;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #eee8d5;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #eee8d5;
+}
+
+body > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body > h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+    margin-top: 0;
+}
+
+li p.first {
+    display: inline-block;
+}
+
+ul,
+ol {
+    padding-left: 30px;
+}
+
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+
+blockquote {
+    border-left: 3px solid #c7fff7;
+    padding: 0 15px;
+    color: #576060;
+}
+
+blockquote blockquote {
+    padding-right: 0;
+}
+
+table {
+    padding: 0;
+    word-break: initial;
+}
+
+#write table tr th {
+    font-size: 16px;
+}
+#write table tr td {
+  font-size: 14px;
+}
+
+#write .footnotes {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 0.8px solid #ffc000;
+}
+
+#write table.md-table {
+  overflow: hidden;
+}
+#write table thead {
+    border-top: 2px solid #dedddd;
+    border-bottom: 2px solid #dedddd;
+}
+#write table tbody { 
+    border-bottom: 2px solid #dedddd;
+}
+
+table tr td {
+    text-align: center;
+    margin: 0;
+    padding: 4px 6px;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+}
+
+.md-fences,
+code,
+tt {
+    background-color: #ede7cf;
+    color: #cb4b16;
+    border-radius: 5px;
+    padding: 0;
+    font-family: "ComicShannsMono Nerd Font Mono";
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.task-list {
+    padding-left: 0;
+}
+
+.task-list-item {
+    padding-left: 32px;
+}
+
+.task-list-item input {
+    top: 3px;
+    left: 8px;
+}
+
+@media screen and (min-width: 914px) {
+    /*body {
+        width: 854px;
+        margin: 0 auto;
+    }*/
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+    background-color: #eee8d5;
+}
+
+#write pre.md-meta-block {
+    padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block > .code-tooltip {
+    bottom: .375rem;
+}
+
+#write > h3.md-focus:before {
+    left: -1.5625rem;
+    top: .375rem;
+}
+
+#write > h4.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+
+#write > h5.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+
+#write > h6.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+
+.md-image > .md-meta {
+    border-radius: 3px;
+    font-family: "Monaspace Radon SemiWide";
+    padding: 8px 16px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: inherit;
+}
+
+.md-toc {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    background-color: #eee8d5;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#md-notification:before {
+    top: 10px;
+}
+
+/** focus mode */
+
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+    font-family: "LXGW WenKai Mono";
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state {
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: var(--side-bar-bg-color);
+}
