@@ -1,0 +1,156 @@
+// Author: fetch150zy
+
+{
+    "editor.fontFamily": "'ComicShannsMono Nerd Font', 'LXGW WenKai Mono'",
+    "editor.fontWeight": "normal",
+	"editor.fontSize": 16,
+
+    "editor.lineHeight": 1.2,
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": "on",
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.stickyTabStops": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "off",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderControlCharacters": true,
+    "editor.tabSize": 4,
+    "editor.stickyScroll.enabled": true,
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.lineNumbers": "relative",
+    "editor.parameterHints.enabled": true,
+
+    "editor.inlayHints.enabled": "on",
+    "editor.inlineSuggest.enabled": true,
+
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorBlinking": "expand",
+
+	"editor.codeLensFontFamily": "'ComicShannsMono Nerd Font Mono'",
+	"editor.codeLensFontSize": 14,
+
+
+    "terminal.integrated.fontFamily": "'ComicShannsMono Nerd Font Mono', 'DroidSansMono Nerd Font', 'LXGW WenKai Mono'",
+    "terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.lineHeight": 0.8,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.inheritEnv": false,
+
+
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.wrapTabs": true, 
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.languageDetectionHints": {
+        "untitledEditors": false,
+        "notebookEditors": false
+    },
+
+
+    "rust-analyzer.inlayHints.renderColons": true,
+    "rust-analyzer.inlayHints.typeHints.enable": true,
+    "rust-analyzer.inlayHints.parameterHints.enable": true,
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+    "rust-analyzer.inlayHints.expressionAdjustmentHints.enable": "always",
+    "rust-analyzer.inlayHints.expressionAdjustmentHints.hideOutsideUnsafe": true,
+    "rust-analyzer.inlayHints.genericParameterHints.type.enable": true,
+    "rust-analyzer.inlayHints.genericParameterHints.lifetime.enable": true,
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+    "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+    "rust-analyzer.inlayHints.reborrowHints.enable": "always",
+    "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": true,
+    "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": true,
+
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.missingPackage.severity": "Error",
+
+
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+
+    
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "zenMode.hideLineNumbers": false,
+    "editor.largeFileOptimizations": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "search.followSymlinks": true,
+    "window.dialogStyle": "custom",
+    "editor.minimap.autohide": true,
+    "git-graph.dialog.fetchIntoLocalBranch.forceFetch": true,
+    "git-graph.dialog.rebase.launchInteractiveRebase": true,
+
+    
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": false,    
+
+    "material-icon-theme.folders.color": "#42a5f5",
+    "material-icon-theme.saturation": 0.9,
+    "hediet.vscode-drawio.resizeImages": null,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "feather-vscode",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.activityBar.orientation": "vertical",
+    "explorer.confirmPasteNative": false
+}
